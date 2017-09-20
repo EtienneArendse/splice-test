@@ -1,11 +1,10 @@
 .banner {
     background: url('../assets/headerBackground.jpg') no-repeat center center;
     background-size: cover;
-    height: 100vh;
     color: #FFFFFF;
-    // float: left;
 
     .menu {
+        float: right;
         li {
             a {
                 color: #FFFFFF;
@@ -14,22 +13,23 @@
     }
 
     .heading {
-        display: inline;
-        float: right;
-        position: relative;
+        text-align: center;
+        padding: rem-calc(150 10);
 
         .banner-text{
             text-align: center;
             color: #FFFFFF;
-            font-weight: bold;
+            margin-bottom: rem-calc(20);
         }
 
         .banner-sub-text{
             text-align: center;
             color: #FFFFFF;
+            margin-bottom: rem-calc(20);
         }
 
         .banner-main-button{
+            border-radius: rem-calc(20);
             text-align: center;
             color: #FFFFFF;
         }
