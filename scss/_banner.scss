@@ -2,7 +2,9 @@
     background: url('../assets/headerBackground.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
-    
+    color: #FFFFFF;
+    // float: left;
+
     .menu {
         li {
             a {
@@ -10,5 +12,28 @@
             }
         }  
     }
+
+    .heading {
+        display: inline;
+        float: right;
+        position: relative;
+
+        .banner-text{
+            text-align: center;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        .banner-sub-text{
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .banner-main-button{
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    
 }
 
