@@ -1,0 +1,14 @@
+.banner {
+    background: url('../assets/headerBackground.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    
+    .menu {
+        li {
+            a {
+                color: #FFFFFF;
+            }
+        }  
+    }
+}
+
