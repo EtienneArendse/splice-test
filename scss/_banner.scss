@@ -1,14 +1,14 @@
 .banner {
     background: url('../assets/headerBackground.jpg') no-repeat center center;
     background-size: cover;
-    color: #FFFFFF;
     padding: rem-calc(40);
+    $main-font-color: color: #FFFFFF;
 
     h1 {
         font-size: 20px;
 
        .icon-logo {
-            color: #FFFFFF;
+            color: $main-font-color;
             font-family: $header-font-family;
             font-size: 20px;
         } 
@@ -16,23 +16,22 @@
     
 
     .main-nav {
-
         .menu {
             float: right;
             font-family: $header-font-family;
             font-size: 14px;
-            color: #FFFFFF;
+            color: main-font-color;
 
             .signup{
                 border: 2px solid #FFFFFF;
                 border-radius: rem-calc(20);
                 text-align: center;
-                color: #FFFFFF;
+                color: main-font-color;
             }
 
             li {
                 a {
-                    color: #FFFFFF;
+                    color: main-font-color;
                 }
             }  
         }
@@ -45,7 +44,7 @@
 
         .banner-text{
             text-align: center;
-            color: #FFFFFF;
+            // color: #FFFFFF;
             font-family: $header-font-family;
             font-size: rem-calc(52);
             color: #FFFFFF;
@@ -56,7 +55,7 @@
 
         .banner-sub-text{
             text-align: center;
-            color: #FFFFFF;
+            // color: #FFFFFF;
             margin-bottom: rem-calc(20);
             font-family: $body-font-family;
             font-size: 24px;
@@ -69,7 +68,7 @@
             background-color: #FF4E50;
             border-radius: rem-calc(30);
             text-align: center;
-            color: #FFFFFF;
+            // color: #FFFFFF;
             font-family: $header-font-family;
             font-size: 14px;
             color: #F7F3F2;
