@@ -3,8 +3,19 @@
     background-size: cover;
     color: #FFFFFF;
 
+    #logo {
+        color: #FFFFFF;
+    }
+
     .menu {
         float: right;
+
+        .signup{
+            border-radius: rem-calc(20);
+            text-align: center;
+            color: #FFFFFF;
+        }
+
         li {
             a {
                 color: #FFFFFF;
