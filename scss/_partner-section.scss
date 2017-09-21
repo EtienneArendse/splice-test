@@ -1,8 +1,8 @@
 .partner-section {
     
     .circle-img {
-        height: 130px;
-        width: 130px;
+        height: 120px;
+        width: 120px;
         border-radius: 50%;
     }
 
@@ -20,5 +20,19 @@
 
     .partner4 {
         background: url('../assets/partner4.jpg') no-repeat center center;
+    }
+
+    h5 {
+        font-family: $header-font-family;
+        font-size: 14px;
+        color: #444444;
+    }
+
+    p {
+        font-family: $body-font-family;
+        font-size: 14px;
+        color: #666666;
+        letter-spacing: 0;
+        line-height: 18px;
     }
 }

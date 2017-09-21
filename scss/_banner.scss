@@ -2,32 +2,42 @@
     background: url('../assets/headerBackground.jpg') no-repeat center center;
     background-size: cover;
     color: #FFFFFF;
+    padding: rem-calc(40);
 
-    .icon-logo {
-        color: #FFFFFF;
-        font-family: Montserrat-Bold;
-        font-size: 14px;
-    }
+    h1 {
+        font-size: 20px;
 
-    .menu {
-        float: right;
-        font-family: Montserrat-Regular;
-        font-size: 14px;
-        color: #FFFFFF;
-
-        .signup{
-            border: 2px solid #FFFFFF;
-            border-radius: rem-calc(20);
-            text-align: center;
+       .icon-logo {
             color: #FFFFFF;
-        }
+            font-family: $header-font-family;
+            font-size: 20px;
+        } 
+    }
+    
 
-        li {
-            a {
+    .main-nav {
+
+        .menu {
+            float: right;
+            font-family: $header-font-family;
+            font-size: 14px;
+            color: #FFFFFF;
+
+            .signup{
+                border: 2px solid #FFFFFF;
+                border-radius: rem-calc(20);
+                text-align: center;
                 color: #FFFFFF;
             }
-        }  
+
+            li {
+                a {
+                    color: #FFFFFF;
+                }
+            }  
+        }
     }
+   
 
     .heading {
         text-align: center;
@@ -36,20 +46,19 @@
         .banner-text{
             text-align: center;
             color: #FFFFFF;
-            margin-bottom: rem-calc(20);
-            font-family: Montserrat-Bold;
-            font-size: 52px;
+            font-family: $header-font-family;
+            font-size: rem-calc(52);
             color: #FFFFFF;
             letter-spacing: 0;
-            margin: auto;
-            width: 40%;
+            padding: rem-calc(30);
+            font-weight: 700;
         }
 
         .banner-sub-text{
             text-align: center;
             color: #FFFFFF;
             margin-bottom: rem-calc(20);
-            font-family: Roboto-Light;
+            font-family: $body-font-family;
             font-size: 24px;
             color: #F7F3F2;
             letter-spacing: 0;
@@ -61,8 +70,8 @@
             border-radius: rem-calc(30);
             text-align: center;
             color: #FFFFFF;
-            font-family: Roboto-Light;
-            font-size: 24px;
+            font-family: $header-font-family;
+            font-size: 14px;
             color: #F7F3F2;
             letter-spacing: 0;
         }
