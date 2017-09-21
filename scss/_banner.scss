@@ -2,7 +2,7 @@
     background: url('../assets/headerBackground.jpg') no-repeat center center;
     background-size: cover;
     padding: rem-calc(40);
-    $main-font-color: color: #FFFFFF;
+    $main-font-color: #FFFFFF;
 
     h1 {
         font-size: 20px;
@@ -20,18 +20,18 @@
             float: right;
             font-family: $header-font-family;
             font-size: 14px;
-            color: main-font-color;
+            color: $main-font-color;
 
             .signup{
                 border: 2px solid #FFFFFF;
                 border-radius: rem-calc(20);
                 text-align: center;
-                color: main-font-color;
+                color: $main-font-color;
             }
 
             li {
                 a {
-                    color: main-font-color;
+                    color: $main-font-color;
                 }
             }  
         }
