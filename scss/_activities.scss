@@ -10,19 +10,24 @@
             top: 50%;
             left: 50%;
         }
-
-        img {
-            max-width: 100%;
-            width: 100%;
-        }
     }
 
     .sports {
-        // background: url('../assets/block1Sports.jpg') no-repeat center center;
-        // background-size: cover;
-        // padding: 10px;
-        // margin: 10px;
-        // position: relative;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('../assets/block1Sports.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: rem-calc(310);
+
+        h5 {
+            padding: rem-calc(50);
+            position: absolute;
+            top: rem-calc(40);
+            left: rem-calc(40);
+        }
     }
 
     .wellness {
