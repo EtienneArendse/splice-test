@@ -67,34 +67,74 @@
     }
 
     .games {
-        // background: url('../assets/block4Games.jpg') no-repeat center center;
-        // background-size: cover;
-        // padding: 10px;
-        // margin: 10px;
-        // position: relative;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('../assets/block4Games.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: rem-calc(310);
+
+        h5 {
+            padding: rem-calc(50);
+            position: absolute;
+            top: rem-calc(40);
+            left: rem-calc(40);
+        }
     }
 
     .culture {
-        // background: url('../assets/block5Culture.jpg') no-repeat center center;
-        // background-size: cover;
-        // padding: 10px;
-        // margin: 10px;
-        // position: relative;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('../assets/block5Culture.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: rem-calc(310);
+
+        h5 {
+            padding: rem-calc(50);
+            position: absolute;
+            top: rem-calc(40);
+            left: rem-calc(40);
+        }
     }
 
     .beauty {
-        // background: url('../assets/block6Beauty.jpg') no-repeat center center;
-        // background-size: cover;
-        // padding: 10px;
-        // margin: 10px;
-        // position: relative;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('../assets/block6Beauty.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: rem-calc(310);
+
+        h5 {
+            padding: rem-calc(50);
+            position: absolute;
+            top: rem-calc(40);
+            left: rem-calc(40);
+        }
     }
 
     .travelling {
-        // background: url('../assets/block7Travelling.jpg') no-repeat center center;
-        // background-size: cover;
-        // padding: 10px;
-        // margin: 10px;
-        // position: relative;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('../assets/block7Travelling.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: rem-calc(310);
+
+        h5 {
+            padding: rem-calc(50);
+            position: absolute;
+            top: rem-calc(40);
+            left: rem-calc(40);
+        }
     }
 }
