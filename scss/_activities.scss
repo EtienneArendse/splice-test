@@ -3,14 +3,23 @@
         font-family: $header-font-family;
         font-size: 22px;
         color: #fff;
-        text-align: center;
+        // text-align: center;
         margin-bottom: 10px;
         margin-top: 10px;
 
         h5 {
-            position: absolute;
+            // position: absolute;
             top: 50%;
             left: 50%;
+            transform: translate(-50%, -50%);
+
+            padding: rem-calc(40);
+            position: absolute;
+            // top: rem-calc(100);
+            // left: rem-calc(100);
+            text-align: center;
+            // width: rem-calc(60);
+            // height: rem-calc(60);
         }
     }
 
@@ -24,12 +33,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .wellness {
@@ -42,12 +51,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .expeditions {
@@ -60,12 +69,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .games {
@@ -78,12 +87,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .culture {
@@ -96,12 +105,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .beauty {
@@ -114,12 +123,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     .travelling {
@@ -132,12 +141,12 @@
         position: relative;
         height: rem-calc(310);
 
-        h5 {
-            padding: rem-calc(50);
-            position: absolute;
-            top: rem-calc(40);
-            left: rem-calc(40);
-        }
+        // h5 {
+        //     padding: rem-calc(50);
+        //     position: absolute;
+        //     top: rem-calc(40);
+        //     left: rem-calc(40);
+        // }
     }
 
     // .activites-top {
