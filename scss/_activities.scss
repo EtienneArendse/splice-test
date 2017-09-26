@@ -51,12 +51,10 @@
         position: relative;
         height: rem-calc(310);
 
-        // h5 {
-        //     padding: rem-calc(50);
-        //     position: absolute;
-        //     top: rem-calc(40);
-        //     left: rem-calc(40);
-        // }
+        h5 {  
+            padding: rem-calc(0 20);
+            width: 100%;
+        }
     }
 
     .expeditions {
