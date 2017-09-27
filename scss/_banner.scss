@@ -76,11 +76,23 @@
         background-size: length;
         
         .main-nav {
+            padding: rem-calc(20 20 20 20);
+
+            float: left;
+            position: relative;
+            left: 50%;
+
             .menu {
-                margin: auto;
-                width: 50%;
-                padding: rem-calc(10);
+                float: left;
+                position: relative;
+                left: -50%;
             }
+            // .ul {
+            //     display: inline-block;
+            //     width: fit-content;
+            //     text-align: center;
+            //     margin: auto;
+            // }
         }
 
         .mobile-visible-heading {
