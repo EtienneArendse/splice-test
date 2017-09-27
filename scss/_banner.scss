@@ -75,10 +75,24 @@
     .banner {
         background-size: length;
         
+        .main-nav {
+            .menu {
+                margin: auto;
+                width: 50%;
+                padding: rem-calc(10);
+            }
+        }
+
+        .mobile-visible-heading {
+            padding: rem-calc(100 10 10 10);
+        }
+
         .heading {
+            padding: rem-calc(10 10 10 10);
+
             .banner-text {
                 font-size: rem-calc(32);
-                padding: rem-calc(10);
+                padding: rem-calc(10 10 10 10);
             }
 
             h5 {
@@ -86,5 +100,8 @@
             }
         }
         
+        .banner-main-button {
+            margin-bottom: rem-calc(100);
+        }
     }
 }
