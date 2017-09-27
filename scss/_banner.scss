@@ -77,7 +77,12 @@
         
         .heading {
             .banner-text {
-                font-size: rem-calc(16);
+                font-size: rem-calc(32);
+                padding: rem-calc(10);
+            }
+
+            h5 {
+                font-weight: normal; 
             }
         }
         
