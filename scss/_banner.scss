@@ -77,22 +77,10 @@
         
         .main-nav {
             padding: rem-calc(20 20 20 20);
-
-            float: left;
-            position: relative;
-            left: 50%;
-
-            .menu {
-                float: left;
-                position: relative;
-                left: -50%;
+            
+            .mobile-menu {
+                float: none;
             }
-            // .ul {
-            //     display: inline-block;
-            //     width: fit-content;
-            //     text-align: center;
-            //     margin: auto;
-            // }
         }
 
         .mobile-visible-heading {
