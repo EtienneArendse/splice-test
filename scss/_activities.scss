@@ -1,12 +1,12 @@
 .activities-section {
     .activities {
         font-family: $header-font-family;
-        font-size: 22px;
         color: #fff;
         margin-bottom: 10px;
         margin-top: 10px;
 
         h5 {
+            font-size: rem-calc(22);
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -102,5 +102,20 @@
         background-size: cover;
         position: relative;
         height: rem-calc(310);
+    }
+}
+
+@media (max-width: 425px) {
+    .activities-section {
+        .sports,
+        .wellness,
+        .expeditions,
+        .games,
+        .culture,
+        .beauty,
+        .travelling {
+            height: rem-calc(250);
+        }
+        
     }
 }

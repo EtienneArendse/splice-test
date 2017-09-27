@@ -47,7 +47,6 @@
             color: #FFFFFF;
             letter-spacing: 0;
             padding: rem-calc(30);
-            font-weight: 700;
         }
 
         .banner-sub-text{
@@ -72,3 +71,15 @@
     }
 }
 
+@media (max-width: 425px) {
+    .banner {
+        background-size: length;
+        
+        .heading {
+            .banner-text {
+                font-size: rem-calc(16);
+            }
+        }
+        
+    }
+}
